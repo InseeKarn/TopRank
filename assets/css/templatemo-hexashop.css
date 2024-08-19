@@ -843,11 +843,21 @@ Men
 #men .item .rank-im,
 #women .item .rank-im,
 #technology .item .rank-im {
-  width: 150px;
+  width: 100px;
   /* border: 1px solid red; */
   margin-bottom: 1rem;
   margin-top: 0;
 }
+
+
+
+#men .item {
+  /* border: 1px solid red; */
+  width: 100px;
+  height: 100%;
+}
+
+
 
 
 #men .item .down-content {
@@ -855,6 +865,8 @@ Men
   position: relative;
   z-index: 3;
   background-color: #ffffff;
+  /* border: 1px solid red; */
+  
 }
 
 #men .item .down-content h4 {
@@ -862,9 +874,12 @@ Men
   color: #2a2a2a;
   font-weight: 700;
   margin-bottom: 8px;
+  /* border: 1px solid red; */
+
 }
 
 #men .item .down-content span {
+  /* border: 1px solid red; */
   font-size: 18px;
   color: #a1a1a1;
   font-weight: 500;
@@ -925,12 +940,7 @@ Men
   transition: all .5s;
 }
 
-#men .item .thumb .hover-content img {
-  /* border: 1px solid red; */
-  -ms-high-contrast-adjust: 100%;
-  
 
-}
 
 #men .item .thumb:hover .hover-content {
   bottom: 30px;
@@ -940,6 +950,16 @@ Men
 
 #men .item .thumb {
   position: relative;
+  /* border: 1px solid red; */
+
+  img {
+  border: 1px solid red;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+
 }
 
 #men .item .thumb .hover-content ul li {
@@ -956,7 +976,7 @@ Men
   display: inline-block;
   color: #2a2a2a;
   background-color: #fff;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   
 }
 
@@ -1065,6 +1085,14 @@ Women
 #women .section-heading span{
   color: #eee;
   font-size: 15px;
+}
+
+
+#women .item {
+  /* border: 1px solid red; */
+  width: 100px;
+  height: 100%;
+  
 }
 
 
@@ -1262,6 +1290,12 @@ technology
   font-size: 15px;
 }
 
+
+#technology .item {
+  /* border: 1px solid red; */
+  width: 100px;
+  height: 100%;
+}
 
 
 #technology .item h1 {
