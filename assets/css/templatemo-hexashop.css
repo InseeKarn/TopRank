@@ -1735,14 +1735,16 @@ footer .logo {
 }
 
 footer .logo img {
-  width: 100px;
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
 }
 
 footer .logo h1 {
   /* border: 1px solid red; */
   color: #ffff;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   font-size: 30px;
 }
 
@@ -1867,7 +1869,7 @@ Products Page
   overflow: hidden;
 }
 
-.product-slider {
+.product-slider1,.product-slider2,.product-slider3 {
   display: flex;
   flex-direction: row;
   gap: 20px; /* Adjust the gap between products as needed */
@@ -1875,7 +1877,7 @@ Products Page
   scroll-behavior: smooth;
 }
 
-.product-slider::-webkit-scrollbar {
+.product-slider1::-webkit-scrollbar,.product-slider2::-webkit-scrollbar,.product-slider3::-webkit-scrollbar {
   display: none; /* Hide scrollbar */
 }
 
@@ -1913,7 +1915,7 @@ Products Page
 
 
 
-.slide-left, .slide-right {
+.slide-left, .slide-right,.slide-left2, .slide-right2,.slide-left3, .slide-right3 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1925,12 +1927,12 @@ Products Page
   z-index: 10;
 }
 
-.slide-left {
+.slide-left,.slide-left2,.slide-left3 {
   left: 0;
   background-color: #000000;
 }
 
-.slide-right {
+.slide-right,.slide-right2,.slide-right3 {
   right: 0;
   background-color: #000000;
 
