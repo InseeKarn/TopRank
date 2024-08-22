@@ -697,10 +697,10 @@ banner
 .main-banner .left-content .thumb img {
   width: 100%;
   overflow-y: hidden;
-  height: 91rem;
+  height: 80rem;
   position: relative;
 
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .main-banner .left-content .inner-content {
